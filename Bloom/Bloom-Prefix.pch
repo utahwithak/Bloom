@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Bloom' target in the 'Bloom' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
