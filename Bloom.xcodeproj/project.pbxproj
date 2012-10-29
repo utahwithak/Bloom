@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093E743F163DB57800908ABE /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E743E163DB57800908ABE /* DataManager.m */; };
+		093E7443163DC41C00908ABE /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E7442163DC41C00908ABE /* TestViewController.m */; };
 		095019B7163B5E4A0071BB56 /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0980B333163B5B6400D221A5 /* ObjectiveGit.framework */; };
 		095019B9163B5E560071BB56 /* ObjectiveGit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0980B333163B5B6400D221A5 /* ObjectiveGit.framework */; };
+		097E0876163E18E5002880DC /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E0875163E18E5002880DC /* TreeNode.m */; };
+		097E0879163E18FE002880DC /* Bug.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E0878163E18FE002880DC /* Bug.m */; };
+		097E087C163E1909002880DC /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E087B163E1909002880DC /* Target.m */; };
+		097E0885163E193A002880DC /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E0884163E193A002880DC /* Project.m */; };
 		0980B306163B5B2E00D221A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0980B305163B5B2E00D221A5 /* Cocoa.framework */; };
 		0980B310163B5B2E00D221A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0980B30E163B5B2E00D221A5 /* InfoPlist.strings */; };
 		0980B312163B5B2E00D221A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0980B311163B5B2E00D221A5 /* main.m */; };
@@ -56,6 +62,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		093E743D163DB57800908ABE /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		093E743E163DB57800908ABE /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		093E7441163DC41C00908ABE /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		093E7442163DC41C00908ABE /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		097E0874163E18E5002880DC /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		097E0875163E18E5002880DC /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		097E0877163E18FE002880DC /* Bug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bug.h; sourceTree = "<group>"; };
+		097E0878163E18FE002880DC /* Bug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bug.m; sourceTree = "<group>"; };
+		097E087A163E1909002880DC /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		097E087B163E1909002880DC /* Target.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target.m; sourceTree = "<group>"; };
+		097E0883163E193A002880DC /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		097E0884163E193A002880DC /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
 		0980B301163B5B2E00D221A5 /* Bloom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bloom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0980B305163B5B2E00D221A5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0980B308163B5B2E00D221A5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -86,6 +104,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093E7440163DB57F00908ABE /* Core Data Stack */ = {
+			isa = PBXGroup;
+			children = (
+				097E0883163E193A002880DC /* Project.h */,
+				097E0884163E193A002880DC /* Project.m */,
+				097E0874163E18E5002880DC /* TreeNode.h */,
+				097E0875163E18E5002880DC /* TreeNode.m */,
+				097E087A163E1909002880DC /* Target.h */,
+				097E087B163E1909002880DC /* Target.m */,
+				097E0877163E18FE002880DC /* Bug.h */,
+				097E0878163E18FE002880DC /* Bug.m */,
+				0980B31D163B5B2E00D221A5 /* Bloom.xcdatamodeld */,
+				093E743D163DB57800908ABE /* DataManager.h */,
+				093E743E163DB57800908ABE /* DataManager.m */,
+			);
+			name = "Core Data Stack";
+			sourceTree = "<group>";
+		};
 		0980B2F6163B5B2D00D221A5 = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +165,9 @@
 				0980B317163B5B2E00D221A5 /* AppDelegate.h */,
 				0980B318163B5B2E00D221A5 /* AppDelegate.m */,
 				0980B31A163B5B2E00D221A5 /* MainMenu.xib */,
-				0980B31D163B5B2E00D221A5 /* Bloom.xcdatamodeld */,
+				093E7441163DC41C00908ABE /* TestViewController.h */,
+				093E7442163DC41C00908ABE /* TestViewController.m */,
+				093E7440163DB57F00908ABE /* Core Data Stack */,
 				0980B30C163B5B2E00D221A5 /* Supporting Files */,
 			);
 			path = Bloom;
@@ -248,6 +286,12 @@
 				0980B312163B5B2E00D221A5 /* main.m in Sources */,
 				0980B319163B5B2E00D221A5 /* AppDelegate.m in Sources */,
 				0980B31F163B5B2E00D221A5 /* Bloom.xcdatamodeld in Sources */,
+				093E743F163DB57800908ABE /* DataManager.m in Sources */,
+				093E7443163DC41C00908ABE /* TestViewController.m in Sources */,
+				097E0876163E18E5002880DC /* TreeNode.m in Sources */,
+				097E0879163E18FE002880DC /* Bug.m in Sources */,
+				097E087C163E1909002880DC /* Target.m in Sources */,
+				097E0885163E193A002880DC /* Project.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
